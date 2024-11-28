@@ -1,4 +1,16 @@
 @media only  screen and (max-width:768px ) {
+
+body{
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
   header {
     display: flex;
     align-items: center;
@@ -201,6 +213,8 @@
 .carousel-slide:nth-child(4) .carousel-content .slide4 {
     background-color: rgb(255, 255, 255);
     color: rgb(4, 4, 4);
+    margin: 0px 0px 20px 40px; 
+   align-items: center;
 }
 
 .carousel-image {
@@ -213,13 +227,13 @@
   flex-direction: column;
   width: 100%;
   background-color: #ffffff;
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 .about-text {
-  max-width: 50%;
+  max-width: 90%;
 }
 
 .about-text button {
@@ -283,12 +297,16 @@
   gap: 10px;
   background-color: #fff; 
  
- 
-  
+}
+
+.solutions-triangle{
+  position: absolute;
+  left: 0;
+
 }
 
 .solutions-text {
-  padding: 50px; 
+  padding: 10px; 
   max-width: 90%; 
 }
 
@@ -318,13 +336,16 @@
   max-width: 100%;
   height: auto; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  margin: 0px 0px 40px 0px;
 }
 
 
 #customer-story {
-  padding-right: 10%;
-  background-color: #ffffff;
+  padding: 15px 0px 15px 15px;
+ 
   align-items: center;
+  background-color: #ffffff;
+ 
 }
 
 .gradient-line {
@@ -342,12 +363,14 @@
   width: 100%; 
   padding: 10px; 
   text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .customer-story-text blockquote {
   font-size: 24px; 
   line-height: 1.4;
-  margin-right: 40px;
   align-items: center;
 }
 
@@ -355,7 +378,7 @@
   font-size: 12px; 
   color: #777; 
  margin: 0;
- padding: 10px 20px;
+
 
 }
 
